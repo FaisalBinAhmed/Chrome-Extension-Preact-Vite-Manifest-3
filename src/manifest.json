@@ -19,7 +19,7 @@
 	],
 	"action": {
 		"default_title": "Browser Action",
-		"default_popup": "action/index.html"
+		"default_popup": "index.html"
 	},
 	"options_ui": {
 		"page": "options/options.html",
