@@ -4,7 +4,7 @@
 	"description": "A chrome extension template with Preact",
 	"main": "index.ts",
 	"scripts": {
-		"build": "vite build && tsc && cp src/manifest.json dist/"
+		"build": "vite build && cp src/manifest.json dist/ && tsc"
 	},
 	"repository": {
 		"type": "git",
