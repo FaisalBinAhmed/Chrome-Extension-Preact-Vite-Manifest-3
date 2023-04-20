@@ -1,7 +1,7 @@
 import { render } from "preact";
 
-function ActionPage() {
+const ActionPage = () => {
 	return <div>ActionPage</div>;
-}
+};
 
 render(<ActionPage />, document.getElementById("action")!);
