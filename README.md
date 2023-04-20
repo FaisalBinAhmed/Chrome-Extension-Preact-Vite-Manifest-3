@@ -1,7 +1,7 @@
 # Chrome-Extension-Preact-Vite-Manifest-3 (CEPV)
 
 
-![CEPV Icon](/src/icons/icon.png "CEPV Icon")
+![CEPV Icon](/icon.png "CEPV Icon")
 
 This is a Chrome Extension boilerplate with Preact and Vite bundler support out of the box.
 The extension is targeted for manifest version 3. This should make it futureproof for newer extension development.
