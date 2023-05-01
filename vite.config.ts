@@ -8,7 +8,13 @@ export default defineConfig({
 			input: {
 				main: "./src/action.html",
 				options: "./src/options/options.html",
-				// background: "./src/background"
+				background: "./src/background/background.ts",
+				contentScript: "./src/content-script/contentScript.ts",
+			},
+			output: {
+				entryFileNames: `assets/[name].js`,
+				chunkFileNames: `assets/[name].js`,
+				assetFileNames: `assets/[name].[ext]`,
 			},
 		},
 	},

@@ -6,14 +6,15 @@
 	"version": "1.0",
 	"author": "Faisal Ahmed",
 	"background": {
-		"service_worker": "background/main.js"
+		"service_worker": "assets/background.js",
+		"type": "module"
 	},
 	"icons": {
 		"128": "/icon.png"
 	},
 	"content_scripts": [
 		{
-			"js": ["content-script/main.js"],
+			"js": ["assets/contentScript.js"],
 			"matches": ["http://*/*", "https://*/*"]
 		}
 	],
